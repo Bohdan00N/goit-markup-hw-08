@@ -1,0 +1,118 @@
+.footer__logo {
+  display: block;
+  margin-bottom: 20px;
+}
+.footer {
+  background-color: #2f303a;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 0;
+}
+.footer .logo-part {
+  color: var(--hero-color);
+  text-decoration: none;
+}
+.footer-wraper__address-contacts {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7142;
+  letter-spacing: 3%;
+}
+.footer-wraper__address-list .map-link {
+  color: var(--hero-color);
+  font-style: normal;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.7;
+  transition: color var(--o-animation);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    font-style: normal;
+  }
+}
+.footer-wraper__address-list .link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-style: normal;
+  
+  vertical-align: Top;
+  transition: color var(--o-animation);
+  &.link:hover,
+  &.link:focus {
+    color: var(--accent-color);
+  }
+}
+.footer-wraper__address-list__item{
+  margin-bottom: 9px;
+}
+.footer-wraper__socials__p {
+  display: flex;
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--hero-color);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-left: 33px;
+}
+.footer-wraper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-wraper__socials {
+  padding-top: 12px;
+}
+.footer-wraper__socials__link {
+  display: flex;
+  height: 44px;
+  width: 44px;
+  border: 1px solid #2f303a;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background, color, var(--o-animation);
+  &:hover,
+  &:focus {
+    background: var(--accent-color);
+  }
+}
+.footer-wraper__subscribe-block {
+  padding-top: 12px;
+  margin-left: 93px;
+}
+.footer-wraper__subscribe-form {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.footer-wraper__subscribe-block__p {
+  display: flex;
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--hero-color);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+#input-email {
+  color: var(--hero-color);
+  background: transparent;
+  font-weight: 400;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  padding-left: 16px;
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}

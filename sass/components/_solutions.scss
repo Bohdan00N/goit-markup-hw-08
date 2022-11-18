@@ -1,0 +1,25 @@
+.solutions {
+  padding: 0 0 94px 0;
+}
+.solutions__cards {
+  display: flex;
+  gap: 30px;
+}
+.solutions__cards-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1666;
+  color: var(--hero-color);
+  position: absolute;
+  z-index: 3;
+  background-color: rgba(47, 48, 58, 0.8);
+  text-align: center;
+  text-transform: uppercase;
+  left: 0;
+  bottom: 4px;
+  padding: 27px 10px;
+  width: 100%;
+}
+.solutions__cards-photo {
+  position: relative;
+}

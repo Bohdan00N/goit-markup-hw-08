@@ -1,0 +1,65 @@
+.contacts__link__header-icons {
+  fill: var(--title-text-color);
+  margin-right: 10px;
+  transition: color var(--o-animation);
+  .contacts__link:hover &,
+  .contacts__link:focus & {
+    fill: var(--accent-color);
+  }
+}
+.socials-icons {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  margin: 8px 32px 30px 32px;
+  gap: 10px;
+}
+.clients-list__icons {
+  fill: currentColor;
+  width: 170px;
+  height: 92px;
+}
+.social-icons__link {
+  display: flex;
+  height: 44px;
+  color: #afb1b8;
+  width: 44px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  transition: background, color, var(--o-animation);
+  &:hover,
+  &:focus {
+    color: #fff;
+    background: #2196f3;
+  }
+}
+.modal-window__icons {
+  fill: var(--main-color);
+  position: absolute;
+  top: 27px;
+  left: 12px;
+  transition: color var(--o-animation);
+  pointer-events: none;
+}
+.social-icons__svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+.footer-wraper__socials .social-icons__svg {
+  fill: var(--hero-color);
+  background: Solid rgba(255, 255, 255, 0.1);
+}
+.subcribe-button__icon-send {
+  fill: var(--hero-color);
+  margin-left: 10px;
+}
+.tel {
+  top: 97px;
+}
+.mail {
+  top: 164px;
+}
