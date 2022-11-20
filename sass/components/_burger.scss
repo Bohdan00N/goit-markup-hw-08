@@ -42,8 +42,7 @@
   transition: transform var(--o-animation);
 }
 .menu__link {
-  padding: 10px;
-  color: var(--main-color);
+   color: var(--main-color);
   text-decoration: none;
   font-weight: 500;
   font-size: 40px;
@@ -93,7 +92,7 @@
     font-size: 18px;
     line-height: 1.2222;
     letter-spacing: 0.02em;
-    color: var(--accent-color)
+    color: var(--accent-color);
     border-right: 1px solid rgba(33, 33, 33, 0.2);
     transform: rotate(90deg);
   }
