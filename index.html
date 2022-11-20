@@ -61,13 +61,56 @@
             </a>
           </li>
         </ul>
-        <button type="button" class="button-menu is-open" data-menu-button="">
-          <svg aria-label="Переключатель мобильного меню"
-          style="width: 40px; height:40px;">
-            <use class="cross" href="./images/sprite.svg#icon-close_burger"></use>
-            <use class="menu" href="./images/sprite.svg#icon-open_burger"></use>
-          </svg>
-        </button>
+        <div class="container">
+          <button
+            type="button"
+            class="button-burger js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg style="width: 40px; height: 40px">
+              <use
+                class="open-burger_icon"
+                xlink:href="./images/sprite.svg#icon-open_burger"
+              ></use>
+            </svg>
+          </button>
+        </div>
+        <div class="menu-container js-menu-container">
+          <button type="button" class="button-burger js-close-menu">
+            <svg style="width: 40px; height: 40px">
+              <use
+                class="close-burger_icon"
+                xlink:href="./images/sprite.svg#icon-close_burger"
+              ></use>
+            </svg>
+          </button>
+          <ul class="menu menu__nav">
+            <li><a class="menu__link" href="/index.html">Студія</a></li>
+            <li>
+              <a class="menu__link" href="/portfolio.html">Портфоліо</a>
+            </li>
+            <li><a class="menu__link" href="#">Контакти</a></li>
+          </ul>
+          <ul class="menu menu__contacts">
+            <li>
+              <a class="menu__link" href="tel:+380961111111">
+                +38 096 111 11 11
+              </a>
+            </li>
+            <li>
+              <a class="menu__link" lang="en" href="mailto:info@devstudio.com"
+                >info@devstudio.com
+              </a>
+            </li>
+          </ul>
+          <ul class="menu menu__socials">
+            <li><a class="menu__link" href="#">Instagram</a></li>
+            <li><a class="menu__link" href="#">Twitter</a></li>
+            <li><a class="menu__link" href="#">Facebook</a></li>
+            <li><a class="menu__link" href="#">LinkedIn</a></li>
+          </ul>
+        </div>
       </div>
     </header>
     <!--Основная часть-->
