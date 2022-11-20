@@ -23,11 +23,11 @@
           </a>
           <nav class="nav">
             <ul class="nav-list">
-              <li><a class="nav-list__link" href="./index.html">Студія</a></li>
               <li>
-                <a class="nav-list__link current" href="./portfolio.html"
-                  >Портфоліо</a
-                >
+                <a class="nav-list__link current" href="./index.html">Студія</a>
+              </li>
+              <li>
+                <a class="nav-list__link" href="./portfolio.html">Портфоліо</a>
               </li>
               <li><a class="nav-list__link" href="">Контакти</a></li>
             </ul>
@@ -61,6 +61,17 @@
             </a>
           </li>
         </ul>
+
+        <button
+          type="button"
+          class="button-burger js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="open-burger_icon" style="width: 24px; height: 16px">
+            <use xlink:href="./images/sprite.svg#icon-open_burger"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <!--Основная часть-->
@@ -110,16 +121,34 @@
                 >
                   <div class="portfolio__list__item-block">
                     <picture>
-                      <source srcset="./images/mobile-images/portfolio/img1.jpg 1x, ./images/mobile-images/portfolio/img1@2x.jpg 2x" media="(max-width:767px)" />
-                <source srcset="./images/tablet-images/portfolio/img1.jpg 1x, ./images/tablet-images/portfolio/img1@2x.jpg 2x" media="(max-width:1199px)" />
-                <source srcset="./images/desktop-images/portfolio/img1.jpg 1x, ./images/desktop-images/portfolio/img1@2x.jpg 2x" media="(min-width:1200px)" />
-                    <img
-                      class="portfolio__list__img"
-                      src="./images/mobile-images/portfolio/img1.jpg"
-                      alt="Макбук"
-                      width="370"
-                    />
-                  </picture>
+                      <source
+                        srcset="
+                          ./images/mobile-images/portfolio/img1.jpg    1x,
+                          ./images/mobile-images/portfolio/img1@2x.jpg 2x
+                        "
+                        media="(max-width:767px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/tablet-images/portfolio/img1.jpg    1x,
+                          ./images/tablet-images/portfolio/img1@2x.jpg 2x
+                        "
+                        media="(max-width:1199px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/desktop-images/portfolio/img1.jpg    1x,
+                          ./images/desktop-images/portfolio/img1@2x.jpg 2x
+                        "
+                        media="(min-width:1200px)"
+                      />
+                      <img
+                        class="portfolio__list__img"
+                        src="./images/mobile-images/portfolio/img1.jpg"
+                        alt="Макбук"
+                        width="370"
+                      />
+                    </picture>
                     <p class="portfolio__list__img-text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
@@ -142,16 +171,34 @@
                 >
                   <div class="portfolio__list__item-block">
                     <picture>
-                      <source srcset="./images/mobile-images/portfolio/img2.jpg 1x, ./images/mobile-images/portfolio/img2@2x.jpg 2x" media="(max-width:767px)" />
-                <source srcset="./images/tablet-images/portfolio/img2.jpg 1x, ./images/tablet-images/portfolio/img2@2x.jpg 2x" media="(max-width:1199px)" />
-                <source srcset="./images/desktop-images/portfolio/img2.jpg 1x, ./images/desktop-images/portfolio/img2@2x.jpg 2x" media="(min-width:1200px)" />
-                    <img
-                      class="portfolio__list__img"
-                      src="./images/mobile-images/portfolio/img2.jpg"
-                      alt="Баскетбол"
-                      width="370"
-                    />
-                  </picture>
+                      <source
+                        srcset="
+                          ./images/mobile-images/portfolio/img2.jpg    1x,
+                          ./images/mobile-images/portfolio/img2@2x.jpg 2x
+                        "
+                        media="(max-width:767px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/tablet-images/portfolio/img2.jpg    1x,
+                          ./images/tablet-images/portfolio/img2@2x.jpg 2x
+                        "
+                        media="(max-width:1199px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/desktop-images/portfolio/img2.jpg    1x,
+                          ./images/desktop-images/portfolio/img2@2x.jpg 2x
+                        "
+                        media="(min-width:1200px)"
+                      />
+                      <img
+                        class="portfolio__list__img"
+                        src="./images/mobile-images/portfolio/img2.jpg"
+                        alt="Баскетбол"
+                        width="370"
+                      />
+                    </picture>
                     <p class="portfolio__list__img-text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
@@ -174,16 +221,34 @@
                 >
                   <div class="portfolio__list__item-block">
                     <picture>
-                      <source srcset="./images/mobile-images/portfolio/img3.jpg 1x, ./images/mobile-images/portfolio/img3@2x.jpg 2x" media="(max-width:767px)" />
-                <source srcset="./images/tablet-images/portfolio/img3.jpg 1x, ./images/tablet-images/portfolio/img3@2x.jpg 2x" media="(max-width:1199px)" />
-                <source srcset="./images/desktop-images/portfolio/img3.jpg 1x, ./images/desktop-images/portfolio/img3@2x.jpg 2x" media="(min-width:1200px)" />
-                    <img
-                      class="portfolio__list__img"
-                      src="./images/mobile-images/portfolio/img3.jpg"
-                      alt="Риба"
-                      width="370"
-                    />
-                  </picture>
+                      <source
+                        srcset="
+                          ./images/mobile-images/portfolio/img3.jpg    1x,
+                          ./images/mobile-images/portfolio/img3@2x.jpg 2x
+                        "
+                        media="(max-width:767px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/tablet-images/portfolio/img3.jpg    1x,
+                          ./images/tablet-images/portfolio/img3@2x.jpg 2x
+                        "
+                        media="(max-width:1199px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/desktop-images/portfolio/img3.jpg    1x,
+                          ./images/desktop-images/portfolio/img3@2x.jpg 2x
+                        "
+                        media="(min-width:1200px)"
+                      />
+                      <img
+                        class="portfolio__list__img"
+                        src="./images/mobile-images/portfolio/img3.jpg"
+                        alt="Риба"
+                        width="370"
+                      />
+                    </picture>
                     <p class="portfolio__list__img-text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
@@ -206,16 +271,34 @@
                 >
                   <div class="portfolio__list__item-block">
                     <picture>
-                      <source srcset="./images/mobile-images/portfolio/img4.jpg 1x, ./images/mobile-images/portfolio/img4@2x.jpg 2x" media="(max-width:767px)" />
-                <source srcset="./images/tablet-images/portfolio/img4.jpg 1x, ./images/tablet-images/portfolio/img4@2x.jpg 2x" media="(max-width:1199px)" />
-                <source srcset="./images/desktop-images/portfolio/img4.jpg 1x, ./images/desktop-images/portfolio/img4@2x.jpg 2x" media="(min-width:1200px)" />
-                    <img
-                      class="portfolio__list__img"
-                      src="./images/mobile-images/portfolio/img4.jpg"
-                      alt="Навушники"
-                      width="370"
-                    />
-                  </picture>
+                      <source
+                        srcset="
+                          ./images/mobile-images/portfolio/img4.jpg    1x,
+                          ./images/mobile-images/portfolio/img4@2x.jpg 2x
+                        "
+                        media="(max-width:767px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/tablet-images/portfolio/img4.jpg    1x,
+                          ./images/tablet-images/portfolio/img4@2x.jpg 2x
+                        "
+                        media="(max-width:1199px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/desktop-images/portfolio/img4.jpg    1x,
+                          ./images/desktop-images/portfolio/img4@2x.jpg 2x
+                        "
+                        media="(min-width:1200px)"
+                      />
+                      <img
+                        class="portfolio__list__img"
+                        src="./images/mobile-images/portfolio/img4.jpg"
+                        alt="Навушники"
+                        width="370"
+                      />
+                    </picture>
                     <p class="portfolio__list__img-text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
@@ -238,16 +321,34 @@
                 >
                   <div class="portfolio__list__item-block">
                     <picture>
-                      <source srcset="./images/mobile-images/portfolio/img5.jpg 1x, ./images/mobile-images/portfolio/img5@2x.jpg 2x" media="(max-width:767px)" />
-                <source srcset="./images/tablet-images/portfolio/img5.jpg 1x, ./images/tablet-images/portfolio/img5@2x.jpg 2x" media="(max-width:1199px)" />
-                <source srcset="./images/desktop-images/portfolio/img5.jpg 1x, ./images/desktop-images/portfolio/img5@2x.jpg 2x" media="(min-width:1200px)" />
-                    <img
-                      class="portfolio__list__img"
-                      src="./images/mobile-images/portfolio/img5.jpg"
-                      alt="Коробки"
-                      width="370"
-                    />
-                  </picture>
+                      <source
+                        srcset="
+                          ./images/mobile-images/portfolio/img5.jpg    1x,
+                          ./images/mobile-images/portfolio/img5@2x.jpg 2x
+                        "
+                        media="(max-width:767px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/tablet-images/portfolio/img5.jpg    1x,
+                          ./images/tablet-images/portfolio/img5@2x.jpg 2x
+                        "
+                        media="(max-width:1199px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/desktop-images/portfolio/img5.jpg    1x,
+                          ./images/desktop-images/portfolio/img5@2x.jpg 2x
+                        "
+                        media="(min-width:1200px)"
+                      />
+                      <img
+                        class="portfolio__list__img"
+                        src="./images/mobile-images/portfolio/img5.jpg"
+                        alt="Коробки"
+                        width="370"
+                      />
+                    </picture>
                     <p class="portfolio__list__img-text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
@@ -270,16 +371,34 @@
                 >
                   <div class="portfolio__list__item-block">
                     <picture>
-                      <source srcset="./images/mobile-images/portfolio/img6.jpg 1x, ./images/mobile-images/portfolio/img6@2x.jpg 2x" media="(max-width:767px)" />
-                <source srcset="./images/tablet-images/portfolio/img6.jpg 1x, ./images/tablet-images/portfolio/img6@2x.jpg 2x" media="(max-width:1199px)" />
-                <source srcset="./images/desktop-images/portfolio/img6.jpg 1x, ./images/desktop-images/portfolio/img6@2x.jpg 2x" media="(min-width:1200px)" />
-                    <img
-                      class="portfolio__list__img"
-                      src="./images/mobile-images/portfolio/img6.jpg"
-                      alt="Аймак"
-                      width="370"
-                    />
-                  </picture>
+                      <source
+                        srcset="
+                          ./images/mobile-images/portfolio/img6.jpg    1x,
+                          ./images/mobile-images/portfolio/img6@2x.jpg 2x
+                        "
+                        media="(max-width:767px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/tablet-images/portfolio/img6.jpg    1x,
+                          ./images/tablet-images/portfolio/img6@2x.jpg 2x
+                        "
+                        media="(max-width:1199px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/desktop-images/portfolio/img6.jpg    1x,
+                          ./images/desktop-images/portfolio/img6@2x.jpg 2x
+                        "
+                        media="(min-width:1200px)"
+                      />
+                      <img
+                        class="portfolio__list__img"
+                        src="./images/mobile-images/portfolio/img6.jpg"
+                        alt="Аймак"
+                        width="370"
+                      />
+                    </picture>
                     <p class="portfolio__list__img-text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
@@ -302,16 +421,34 @@
                 >
                   <div class="portfolio__list__item-block">
                     <picture>
-                      <source srcset="./images/mobile-images/portfolio/img7.jpg 1x, ./images/mobile-images/portfolio/img7@2x.jpg 2x" media="(max-width:767px)" />
-                <source srcset="./images/tablet-images/portfolio/img7.jpg 1x, ./images/tablet-images/portfolio/img7@2x.jpg 2x" media="(max-width:1199px)" />
-                <source srcset="./images/desktop-images/portfolio/img7.jpg 1x, ./images/desktop-images/portfolio/img7@2x.jpg 2x" media="(min-width:1200px)" />
-                    <img
-                      class="portfolio__list__img"
-                      src="./images/mobile-images/portfolio/img7.jpg"
-                      alt="Книга"
-                      width="370"
-                    />
-                  </picture>
+                      <source
+                        srcset="
+                          ./images/mobile-images/portfolio/img7.jpg    1x,
+                          ./images/mobile-images/portfolio/img7@2x.jpg 2x
+                        "
+                        media="(max-width:767px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/tablet-images/portfolio/img7.jpg    1x,
+                          ./images/tablet-images/portfolio/img7@2x.jpg 2x
+                        "
+                        media="(max-width:1199px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/desktop-images/portfolio/img7.jpg    1x,
+                          ./images/desktop-images/portfolio/img7@2x.jpg 2x
+                        "
+                        media="(min-width:1200px)"
+                      />
+                      <img
+                        class="portfolio__list__img"
+                        src="./images/mobile-images/portfolio/img7.jpg"
+                        alt="Книга"
+                        width="370"
+                      />
+                    </picture>
                     <p class="portfolio__list__img-text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
@@ -334,16 +471,34 @@
                 >
                   <div class="portfolio__list__item-block">
                     <picture>
-                      <source srcset="./images/mobile-images/portfolio/img8.jpg 1x, ./images/mobile-images/portfolio/img8@2x.jpg 2x" media="(max-width:767px)" />
-                <source srcset="./images/tablet-images/portfolio/img8.jpg 1x, ./images/tablet-images/portfolio/img8@2x.jpg 2x" media="(max-width:1199px)" />
-                <source srcset="./images/desktop-images/portfolio/img8.jpg 1x, ./images/desktop-images/portfolio/img8@2x.jpg 2x" media="(min-width:1200px)" />
-                    <img
-                      class="portfolio__list__img"
-                      src="./images/mobile-images/portfolio/img8.jpg"
-                      alt="Візитка"
-                      width="370"
-                    />
-                  </picture>
+                      <source
+                        srcset="
+                          ./images/mobile-images/portfolio/img8.jpg    1x,
+                          ./images/mobile-images/portfolio/img8@2x.jpg 2x
+                        "
+                        media="(max-width:767px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/tablet-images/portfolio/img8.jpg    1x,
+                          ./images/tablet-images/portfolio/img8@2x.jpg 2x
+                        "
+                        media="(max-width:1199px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/desktop-images/portfolio/img8.jpg    1x,
+                          ./images/desktop-images/portfolio/img8@2x.jpg 2x
+                        "
+                        media="(min-width:1200px)"
+                      />
+                      <img
+                        class="portfolio__list__img"
+                        src="./images/mobile-images/portfolio/img8.jpg"
+                        alt="Візитка"
+                        width="370"
+                      />
+                    </picture>
                     <p class="portfolio__list__img-text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
@@ -366,16 +521,34 @@
                 >
                   <div class="portfolio__list__item-block">
                     <picture>
-                      <source srcset="./images/mobile-images/portfolio/img9.jpg 1x, ./images/mobile-images/portfolio/img9@2x.jpg 2x" media="(max-width:767px)" />
-                <source srcset="./images/tablet-images/portfolio/img9.jpg 1x, ./images/tablet-images/portfolio/img9@2x.jpg 2x" media="(max-width:1199px)" />
-                <source srcset="./images/desktop-images/portfolio/img9.jpg 1x, ./images/desktop-images/portfolio/img9@2x.jpg 2x" media="(min-width:1200px)" />
-                    <img
-                      class="portfolio__list__img"
-                      src="./images/mobile-images/portfolio/img9.jpg"
-                      alt="Друкування"
-                      width="370"
-                    />
-                  </picture>
+                      <source
+                        srcset="
+                          ./images/mobile-images/portfolio/img9.jpg    1x,
+                          ./images/mobile-images/portfolio/img9@2x.jpg 2x
+                        "
+                        media="(max-width:767px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/tablet-images/portfolio/img9.jpg    1x,
+                          ./images/tablet-images/portfolio/img9@2x.jpg 2x
+                        "
+                        media="(max-width:1199px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/desktop-images/portfolio/img9.jpg    1x,
+                          ./images/desktop-images/portfolio/img9@2x.jpg 2x
+                        "
+                        media="(min-width:1200px)"
+                      />
+                      <img
+                        class="portfolio__list__img"
+                        src="./images/mobile-images/portfolio/img9.jpg"
+                        alt="Друкування"
+                        width="370"
+                      />
+                    </picture>
                     <p class="portfolio__list__img-text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
@@ -493,5 +666,46 @@
         </div>
       </div>
     </footer>
+    <div class="menu-container js-menu-container">
+      <button type="button" class="button-burger js-close-menu">
+        <svg style="width: 40px; height: 40px">
+          <use
+            class="close-burger_icon"
+            xlink:href="./images/sprite.svg#icon-close_burger"
+          ></use>
+        </svg>
+      </button>
+      <ul class="menu menu__nav">
+        <li class="menu__nav-list">
+          <a class="menu__link" href="/index.html">Студія</a>
+        </li>
+        <li class="menu__nav-list">
+          <a class="menu__link" href="/portfolio.html">Портфоліо</a>
+        </li>
+        <li class="menu__nav-list">
+          <a class="menu__link" href="#">Контакти</a>
+        </li>
+      </ul>
+      <ul class="menu menu__contacts">
+        <li class="menu__contacts-list">
+          <a class="menu__link" href="tel:+380961111111"> +38 096 111 11 11 </a>
+        </li>
+        <li class="menu__contacts-list">
+          <a
+            class="menu__link size-small"
+            lang="en"
+            href="mailto:info@devstudio.com"
+            >info@devstudio.com
+          </a>
+        </li>
+      </ul>
+      <ul class="menu menu__socials">
+        <li><a class="menu__link first" href="#">Instagram</a></li>
+        <li><a class="menu__link" href="#">Twitter</a></li>
+        <li><a class="menu__link" href="#">Facebook</a></li>
+        <li><a class="menu__link" href="#">LinkedIn</a></li>
+      </ul>
+    </div>
+    <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>

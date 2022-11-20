@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   gap: 30px;
+  flex-wrap: wrap;
 }
 .clients-list__item {
   width: 170px;

@@ -20,14 +20,13 @@
   .logo {
     font-size: 24px;
     line-height: 1.1667;
-    padding: 16px 0;
+    padding: 16px 0px 0px 6px;
     margin-left: 0;
   }
   .nav {
     width: 100%;
   }
-}
-.hero {
+  .hero {
     padding: 0;
     &__container{
       padding: 118px 60px;
@@ -42,3 +41,25 @@
       max-width: 200px;
     }
   }
+
+}
+@media screen and (max-width: 767.98px){
+.filter__list__item{
+  padding-bottom: 0;
+}
+}
+@media screen and (max-width: 767.98px){
+  .portfolio__list{
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 767.98px){
+  .advantages__list{
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 767.98px){
+  .menu-container{
+    display: none;
+  }
+}

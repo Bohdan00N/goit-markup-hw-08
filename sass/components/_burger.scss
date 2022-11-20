@@ -1,16 +1,18 @@
 .button-burger {
   min-height: 40px;
   min-width: 40px;
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
-  margin: 0;
+  margin-left: auto;
   padding: 0;
   background-color: transparent;
   cursor: pointer;
   border: none;
   border-radius: 50%;
   outline: none;
+  
+  
   &:hover,
   &:focus{
     fill: var(--accent-color);
@@ -58,6 +60,7 @@
 }
 .menu__nav {
   display: block;
+  margin-bottom: 157px;
 }
 .menu__contacts {
   display: block;
@@ -78,14 +81,19 @@
   }
 }
 .menu__nav-list {
-  margin: 32px;
+  margin: 32px 0;
+  .menu__link:hover,
+  .menu__link:focus{
+    color: #2196f3;
+  }
 }
 .menu__contacts-list {
-  margin: 32px;
+  margin: 32px auto;
 }
 
 .menu__socials {
   display: flex;
+  flex-wrap: wrap;
   .menu__link {
     padding: 0 10px;
     font-weight: 500;
@@ -96,4 +104,7 @@
     border-right: 1px solid rgba(33, 33, 33, 0.2);
     transform: rotate(90deg);
   }
+}
+.menu__link.first{
+  padding-left: 0;
 }
