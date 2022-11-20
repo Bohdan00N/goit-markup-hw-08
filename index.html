@@ -75,46 +75,6 @@
             ></use>
           </svg>
         </button>
-
-        <div class="menu-container js-menu-container">
-          <button type="button" class="button-burger js-close-menu">
-            <svg style="width: 40px; height: 40px">
-              <use
-                class="close-burger_icon"
-                xlink:href="./images/sprite.svg#icon-close_burger"
-              ></use>
-            </svg>
-          </button>
-          <ul class="menu menu__nav">
-            <li class="menu__nav-list">
-              <a class="menu__link" href="/index.html">Студія</a>
-            </li>
-            <li class="menu__nav-list">
-              <a class="menu__link" href="/portfolio.html">Портфоліо</a>
-            </li>
-            <li class="menu__nav-list">
-              <a class="menu__link" href="#">Контакти</a>
-            </li>
-          </ul>
-          <ul class="menu menu__contacts">
-            <li class="menu__contacts-list">
-              <a class="menu__link" href="tel:+380961111111">
-                +38 096 111 11 11
-              </a>
-            </li>
-            <li class="menu__contacts-list">
-              <a class="menu__link size-small" lang="en" href="mailto:info@devstudio.com"
-                >info@devstudio.com
-              </a>
-            </li>
-          </ul>
-          <ul class="menu menu__socials">
-            <li><a class="menu__link" href="#">Instagram</a></li>
-            <li><a class="menu__link" href="#">Twitter</a></li>
-            <li><a class="menu__link" href="#">Facebook</a></li>
-            <li><a class="menu__link" href="#">LinkedIn</a></li>
-          </ul>
-        </div>
       </div>
     </header>
     <!--Основная часть-->
@@ -129,7 +89,7 @@
         </div>
       </section>
       <!--Чим ми займаємося-->
-      <section class="section advantages">
+      <section class="section advantages hide">
         <div class="container">
           <h2 class="hidden-title">Наші обов'язки</h2>
           <!--Зробити непомітним, функція для людей без зору-->
@@ -176,7 +136,7 @@
           </ul>
         </div>
       </section>
-      <section class="section solutions">
+      <section class="section solutions hide">
         <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
           <ul class="solutions__cards">
@@ -214,7 +174,7 @@
         </div>
       </section>
       <!--Команда-->
-      <section class="section team">
+      <section class="section team hide">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
           <ul class="team__cards">
@@ -493,7 +453,7 @@
           </ul>
         </div>
       </section>
-      <section class="section">
+      <section class="section hide">
         <div class="container">
           <h2 class="section-title">Постійні клієнти</h2>
           <ul class="clients-list">
@@ -633,7 +593,7 @@
       </div>
     </div>
     <!--Футер-->
-    <footer class="footer">
+    <footer class="footer hide">
       <div class="container">
         <div class="footer-wraper">
           <div class="footer-wraper__address-block">
@@ -731,7 +691,46 @@
         </div>
       </div>
     </footer>
-
+    <div class="menu-container js-menu-container hide">
+      <button type="button" class="button-burger js-close-menu">
+        <svg style="width: 40px; height: 40px">
+          <use
+            class="close-burger_icon"
+            xlink:href="./images/sprite.svg#icon-close_burger"
+          ></use>
+        </svg>
+      </button>
+      <ul class="menu menu__nav">
+        <li class="menu__nav-list">
+          <a class="menu__link" href="/index.html">Студія</a>
+        </li>
+        <li class="menu__nav-list">
+          <a class="menu__link" href="/portfolio.html">Портфоліо</a>
+        </li>
+        <li class="menu__nav-list">
+          <a class="menu__link" href="#">Контакти</a>
+        </li>
+      </ul>
+      <ul class="menu menu__contacts">
+        <li class="menu__contacts-list">
+          <a class="menu__link" href="tel:+380961111111"> +38 096 111 11 11 </a>
+        </li>
+        <li class="menu__contacts-list">
+          <a
+            class="menu__link size-small"
+            lang="en"
+            href="mailto:info@devstudio.com"
+            >info@devstudio.com
+          </a>
+        </li>
+      </ul>
+      <ul class="menu menu__socials">
+        <li><a class="menu__link" href="#">Instagram</a></li>
+        <li><a class="menu__link" href="#">Twitter</a></li>
+        <li><a class="menu__link" href="#">Facebook</a></li>
+        <li><a class="menu__link" href="#">LinkedIn</a></li>
+      </ul>
+    </div>
     <script src="./js/modal.js"></script>
     <script defer src="./js/mobile-menu.js"></script>
   </body>
