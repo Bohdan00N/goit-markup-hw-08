@@ -1,7 +1,4 @@
 .hero__container {
-  
-  display: inline-block;
-  
   text-align: center;
 }
 .hero {
@@ -47,14 +44,14 @@
   line-height: 1.3636;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  display: inline-block;
-  width: 696px;
+  margin: 0 auto 30px;
+  max-width: 696px;
   text-align: center;
 }
 .hero__button {
-  height: 50px;
+  min-height: 50px;
   width: 216px;
-  font-style: normal;
+  
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -62,7 +59,7 @@
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
   border-radius: 4px;
-  font-family: "Roboto", sans-serif;
+
   color: var(--hero-color);
   border: none;
   cursor: pointer;

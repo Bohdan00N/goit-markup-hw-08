@@ -1,6 +1,15 @@
 .footer__logo {
   display: block;
   margin-bottom: 20px;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin: 0 0 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+  @media (max-width: 768px) {
+    width: 100%;
+    
+  }
 }
 .footer {
   background-color: #2f303a;
@@ -19,6 +28,9 @@
   font-size: 14px;
   line-height: 1.7142;
   letter-spacing: 3%;
+  @media (min-width: 768px) and (max-width: 1199px) {
+    text-align: center;
+  }
 }
 .footer-wraper__address-list .map-link {
   color: var(--hero-color);
@@ -56,11 +68,34 @@
   text-transform: uppercase;
   margin-bottom: 20px;
   margin-left: 33px;
+  @media (max-width: 768px) {
+    margin-left: 0px;
+    justify-content: center;
+  }
+  @media (max-width: 1199px) {
+    margin-left: 0px;
+  }
 }
 .footer-wraper {
   display: flex;
-  @media (max-width: 1199px) {
+  @media (max-width: 767px) {
     flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  @media (min-width: 768px) and (max-width: 1199px) {
+    flex-wrap: wrap;
+    gap: 60px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-wraper-adaptive {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 38px;
   }
 }
 .footer-wraper__socials {
@@ -84,12 +119,18 @@
 .footer-wraper__subscribe-block {
   padding-top: 12px;
   margin-left: 93px;
+  @media screen and (max-width: 1199px) {
+    margin: 0;
+  }
 }
 .footer-wraper__subscribe-form {
   display: flex;
   align-items: center;
   gap: 12px;
   flex-wrap: wrap;
+  @media screen and (max-width: 768px) {
+    justify-content: center;
+  }
 }
 .footer-wraper__subscribe-block__p {
   display: flex;
@@ -98,6 +139,9 @@
   color: var(--hero-color);
   text-transform: uppercase;
   margin-bottom: 20px;
+  @media screen and (max-width: 768px) {
+    justify-content: center;
+  }
 }
 #input-email {
   color: var(--hero-color);
@@ -118,3 +162,15 @@
     line-height: 1.25;
   }
 }
+.label-footer {
+  @media screen and (max-width: 767px) {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+}
+
+// flex-basis: calc(50% - 30px);
+
+// flex-basis: calc(50% - 15px);

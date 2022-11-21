@@ -202,7 +202,7 @@
                 <img
                   src="./images/mobile-images/team/team1.jpg"
                   alt="Чоловік"
-                  width="270"
+                  
                 />
               </picture>
               <h3 class="title">Ігор Дем'яненко</h3>
@@ -270,7 +270,7 @@
                 <img
                   src="./images/mobile-images/team/team2.jpg"
                   alt="Жінка"
-                  width="270"
+                  
                 />
               </picture>
               <h3 class="title">Ольга Рєпіна</h3>
@@ -338,7 +338,7 @@
                 <img
                   src="./images/mobile-images/team/team3.jpg"
                   alt="Чоловік"
-                  width="270"
+                  
                 />
               </picture>
               <h3 class="title">Микола Тарасов</h3>
@@ -406,7 +406,7 @@
                 <img
                   src="./images/mobile-images/team/team4.jpg"
                   alt="Чоловік"
-                  width="270"
+                  
                 />
               </picture>
               <h3 class="title">Михайло Єрмаков</h3>
@@ -593,6 +593,7 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-wraper">
+          <div class="footer-wraper-adaptive">
           <div class="footer-wraper__address-block">
             <a class="footer__logo logo" lang="en" href="./index.html"
               >Web<span class="logo-part">Studio</span>
@@ -657,6 +658,7 @@
               </li>
             </ul>
           </div>
+        </div>
           <div class="footer-wraper__subscribe-block">
             <p class="footer-wraper__subscribe-block__p">
               Підпишіться на розсилку
@@ -666,7 +668,7 @@
               class="footer-wraper__subscribe-form"
               name="subscribe"
             >
-              <label for="input-email">
+              <label for="input-email" class="label-footer">
                 <input
                   id="input-email"
                   placeholder="E-mail"
@@ -708,6 +710,7 @@
           <a class="menu__link" href="#">Контакти</a>
         </li>
       </ul>
+      <div class="menu__bottom-container">
       <ul class="menu menu__contacts">
         <li class="menu__contacts-list">
           <a class="menu__link" href="tel:+380961111111"> +38 096 111 11 11 </a>
@@ -728,7 +731,10 @@
         <li><a class="menu__link" href="#">LinkedIn</a></li>
       </ul>
     </div>
+    </div>
     <script src="./js/modal.js"></script>
+    <script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js" integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA==" crossorigin="anonymous"></script>
+
     <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>
