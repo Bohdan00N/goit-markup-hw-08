@@ -196,12 +196,16 @@
   }
 }
 .label-footer {
+  @media screen and (min-width:1199px){
+    width: 358px;
+  }
   @media screen and (max-width: 767px) {
     display: flex;
     justify-content: center;
     width: 100%;
   }
-  
+  @media screen and (min-width: 767px) and (max-width:1199px){
+  width: 470px;}
 }
 
 // flex-basis: calc(50% - 30px);

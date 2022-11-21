@@ -1728,6 +1728,11 @@ ul {
   line-height: 1.25;
 }
 
+@media screen and (min-width: 1199px) {
+  .label-footer {
+    width: 358px;
+  }
+}
 @media screen and (max-width: 767px) {
   .label-footer {
     display: -webkit-box;
@@ -1737,6 +1742,11 @@ ul {
         -ms-flex-pack: center;
             justify-content: center;
     width: 100%;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 1199px) {
+  .label-footer {
+    width: 470px;
   }
 }
 
