@@ -37,7 +37,7 @@
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-style: normal;
-  
+
   vertical-align: Top;
   transition: color var(--o-animation);
   &.link:hover,
@@ -45,7 +45,7 @@
     color: var(--accent-color);
   }
 }
-.footer-wraper__address-list__item{
+.footer-wraper__address-list__item {
   margin-bottom: 9px;
 }
 .footer-wraper__socials__p {
@@ -59,7 +59,9 @@
 }
 .footer-wraper {
   display: flex;
-  flex-wrap: wrap;
+  @media (max-width: 1199px) {
+    flex-wrap: wrap;
+  }
 }
 .footer-wraper__socials {
   padding-top: 12px;
