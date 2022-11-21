@@ -1001,6 +1001,11 @@ ul {
 .footer-wraper__subscribe-block__subcribe-button:hover, .footer-wraper__subscribe-block__subcribe-button:focus {
   cursor: pointer;
 }
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
+  .footer-wraper__subscribe-block__subcribe-button {
+    margin-top: 10px;
+  }
+}
 
 .close-button {
   display: -webkit-box;
@@ -1416,6 +1421,9 @@ ul {
   .footer-wraper {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     gap: 60px;
   }
 }
@@ -1486,6 +1494,7 @@ ul {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding-top: 0;
   }
 }
 

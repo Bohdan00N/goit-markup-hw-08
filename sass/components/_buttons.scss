@@ -39,7 +39,11 @@
   &:focus {
     cursor: pointer;
   }
+  @media screen and (min-width: 768px) and (max-width: 1199.98px) {
+    margin-top: 10px;
+  }
 }
+
 .close-button {
   display: flex;
   justify-content: center;
