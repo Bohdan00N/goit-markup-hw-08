@@ -12,6 +12,30 @@
   border-radius: 50%;
   outline: none;
   position: absolute;
+  right: 15px;
+  top: -2px;
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
+  @media (min-width: 767px) {
+    display: none;
+  }
+}
+.button-burger-close {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  position: absolute;
   top: 21px;
   right: 25.33px;
   &:hover,
@@ -67,6 +91,7 @@
 }
 .menu__contacts {
   display: block;
+  margin-bottom: 64px;
 
   .menu__link {
     font-weight: 500;

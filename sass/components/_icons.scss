@@ -15,16 +15,22 @@
   margin: 8px 32px 30px 32px;
   gap: 10px;
 }
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
+  .footer-wraper__socials .socials-icons {
+    margin: 0;
+  }
+}
+
 .clients-list__icons {
   fill: currentColor;
-  @media screen and (min-width: 1199.98px){
+  @media screen and (min-width: 1199.98px) {
     width: 170px;
-      height: 92px;
-      }
-      @media screen and (max-width: 767px){
-      width:210px;
-      height: 92px;
-    }
+    height: 92px;
+  }
+  @media screen and (max-width: 767px) {
+    width: 210px;
+    height: 92px;
+  }
 }
 .social-icons__link {
   display: flex;
@@ -69,6 +75,6 @@
 .mail {
   top: 164px;
 }
-.open-burger_icon{
-margin-top: 22px;
+.open-burger_icon {
+  margin-top: 22px;
 }
