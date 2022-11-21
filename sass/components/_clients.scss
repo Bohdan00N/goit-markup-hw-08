@@ -8,10 +8,17 @@
   
 }
 .clients-list__item {
-  width: 170px;
-  height: 92px;
+  
   display: flex;
   cursor: pointer;
+  @media screen and (min-width: 1199.98px){
+width: 170px;
+  height: 92px;
+  }
+  @media screen and (max-width: 767px){
+  width: 210px;
+height: 92px;
+  }
 }
 .clients-list__item-link {
   border: 1px solid #afb1b8;
@@ -22,5 +29,10 @@
   &:focus {
     color: var(--accent-color);
     border: 1px solid;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199.98px){
+  display: flex;
+    width: 226px;
+    height: 92px;
   }
 }

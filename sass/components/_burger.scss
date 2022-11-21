@@ -1,7 +1,7 @@
 .button-burger {
-  min-height: 40px;
-  min-width: 40px;
-  display: block;
+  height: 40px;
+  width: 40px;
+  display: flex;
   align-items: center;
   justify-content: center;
   margin-left: auto;
@@ -11,10 +11,11 @@
   border: none;
   border-radius: 50%;
   outline: none;
-  
-  
+  position: absolute;
+  top: 21px;
+  right: 25.33px;
   &:hover,
-  &:focus{
+  &:focus {
     fill: var(--accent-color);
   }
   @media (min-width: 767px) {
@@ -44,7 +45,7 @@
   transition: transform var(--o-animation);
 }
 .menu__link {
-   color: var(--main-color);
+  color: var(--main-color);
   text-decoration: none;
   font-weight: 500;
   font-size: 40px;
@@ -57,10 +58,12 @@
 }
 .menu-container.is-open {
   transform: translateX(0);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .menu__nav {
   display: block;
-  
 }
 .menu__contacts {
   display: block;
@@ -81,9 +84,9 @@
   }
 }
 .menu__nav-list {
-  margin: 32px 0;
+  margin: 32px;
   .menu__link:hover,
-  .menu__link:focus{
+  .menu__link:focus {
     color: #2196f3;
   }
 }
@@ -105,6 +108,6 @@
     transform: rotate(90deg);
   }
 }
-.menu__link.first{
+.menu__link.first {
   padding-left: 0;
 }

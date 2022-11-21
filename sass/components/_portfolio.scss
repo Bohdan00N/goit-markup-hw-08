@@ -27,6 +27,12 @@
   letter-spacing: 0.06em;
   margin-bottom: 0;
 }
+.portfolio__list__item{
+  width: calc(50% - 15px);
+}
+li.portfolio__list__item:first-child .portfolio__list__item__about {
+  padding-bottom: 56px;
+}
 }
 .portfolio__list__img-text {
   position: absolute;

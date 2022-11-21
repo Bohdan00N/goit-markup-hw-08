@@ -17,8 +17,14 @@
 }
 .clients-list__icons {
   fill: currentColor;
-  width: 170px;
-  height: 92px;
+  @media screen and (min-width: 1199.98px){
+    width: 170px;
+      height: 92px;
+      }
+      @media screen and (max-width: 767px){
+      width:210px;
+      height: 92px;
+    }
 }
 .social-icons__link {
   display: flex;
