@@ -9,7 +9,7 @@
   gap: 30px;
   align-items: center;
   padding: 200px 0;
-  background-image: url(/images/mobile-images/header-mobile.jpg);
+  background-image: url(../images/mobile-images/header-mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -18,23 +18,23 @@
   @media (min-device-pixel-ratio: 2) and (max-width: 767px),
     (min-resolution: 192dpi) and (max-width: 767px),
     (min-resolution: 2dppx) and (max-width: 767px) {
-    background-image: url(/images/mobile-images/header-mobile@2x.jpg);
+    background-image: url(../images/mobile-images/header-mobile@2x.jpg);
   }
   @media screen and (max-width: 1199px) {
-    background-image: url(/images/tablet-images/header-tablet.jpg);
+    background-image: url(../images/tablet-images/header-tablet.jpg);
   }
   @media (min-device-pixel-ratio: 2) and (max-width: 1199px),
     (min-resolution: 192dpi) and (max-width: 1199px),
     (min-resolution: 2dppx) and (max-width: 1199px) {
-    background-image: url(/images/tablet-images/header-tablet@2x.jpg);
+    background-image: url(../images/tablet-images/header-tablet@2x.jpg);
   }
   @media screen and (min-width: 1200px) {
-    background-image: url(/images/desktop-images/header-desktop.jpg);
+    background-image: url(../images/desktop-images/header-desktop.jpg);
   }
   @media (min-device-pixel-ratio: 2) and (min-width: 1200px),
     (min-resolution: 192dpi) and (min-width: 1200px),
     (min-resolution: 2dppx) and (min-width: 1200px) {
-    background-image: url(/images/desktop-images/header-desktop@2x.jpg);
+    background-image: url(../images/desktop-images/header-desktop@2x.jpg);
   }
 }
 .hero__title {
@@ -47,11 +47,16 @@
   margin: 0 auto 30px;
   max-width: 696px;
   text-align: center;
+  @media (min-width: 768px) and (max-width: 1199.98px) {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 42px;
+  }
 }
 .hero__button {
   min-height: 50px;
   width: 216px;
-  
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -63,4 +68,10 @@
   color: var(--hero-color);
   border: none;
   cursor: pointer;
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px){
+  .hero{
+    height: 400px;
+  }
 }
