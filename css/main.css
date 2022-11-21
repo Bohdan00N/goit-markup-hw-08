@@ -855,6 +855,11 @@ ul {
   text-align: center;
 }
 
+@media screen and (min-width: 1199px) {
+  .img-team {
+    width: 270px;
+  }
+}
 .contacts__link__header-icons {
   fill: var(--title-text-color);
   margin-right: 10px;
