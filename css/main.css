@@ -315,6 +315,8 @@ ul {
 @media (max-width: 1199.98px) {
   .section .section-title {
     margin: 0 0 30px 0;
+    font-size: 28px;
+    line-height: 1.1785;
   }
 }
 
@@ -560,6 +562,7 @@ ul {
     font-weight: 900;
     font-size: 26px;
     line-height: 42px;
+    max-width: 360px;
   }
 }
 
@@ -1243,6 +1246,11 @@ ul {
   left: 50%;
   z-index: 3;
 }
+@media screen and (max-width: 1199.98px) {
+  .modal-window {
+    max-width: 450px;
+  }
+}
 
 .modal-window__form__p {
   font-weight: 700;
@@ -1445,6 +1453,7 @@ ul {
 @media (max-width: 767px) {
   .footer-wraper__address-block {
     width: 100%;
+    margin-bottom: 39px;
   }
 }
 
@@ -1568,6 +1577,7 @@ ul {
 @media (max-width: 767px) {
   .footer-wraper__socials {
     width: 100%;
+    margin-bottom: 18px;
   }
 }
 
